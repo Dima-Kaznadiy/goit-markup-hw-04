@@ -425,6 +425,8 @@ margin-bottom: 72px;
     align-items: baseline;
    
 }
+
+
 .footer-txt {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -475,6 +477,7 @@ margin-bottom: 72px;
 .footer-icons {
     width: 40px;
     height: 40px;
+    display: flex;
 }
 
 .ft-icons-list {
@@ -490,6 +493,7 @@ margin-bottom: 72px;
  display: flex;
  align-items: center;
  justify-content: center;
+
 }
 
 .footer-menu-link:hover {
@@ -500,3 +504,11 @@ margin-bottom: 72px;
     background-color: #31d0aa;
 }
 
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.first-p {
+    margin-right: 120px;
+}
