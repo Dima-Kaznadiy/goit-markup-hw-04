@@ -346,6 +346,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socail-link-card:hover {
@@ -511,8 +512,8 @@ margin-bottom: 72px;
 .ft-icons-list  {
     display: flex;
     gap: 16px;
-    width: 40px;
-     height: 40px;
+    justify-content: center;
+   
 }
 
  .footer-icons {
